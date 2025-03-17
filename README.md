@@ -2,6 +2,9 @@
 
 An intelligent tax assistant powered by Google's Gemini API that helps with tax-related queries and provides accurate, contextual responses in a modern chat interface.
 
+## UI Preview
+![Tax GPT UI](https://github.com/princelylopes/tax-gpt/blob/main/UI_Image.png)
+
 ## Features
 
 - 🤖 AI-powered tax assistance using Google Gemini
