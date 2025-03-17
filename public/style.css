@@ -1,0 +1,129 @@
+/* Overall page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #012169;
+    color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .deloitte-logo {
+    height: 30px;
+  }
+  
+  /* Container for the main content */
+  .container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  /* Section styling */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    color: #012169;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+  
+  /* Input area styling */
+  .input-area {
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .send-btn {
+    background-color: #012169;
+    color: #fff;
+  }
+  
+  .send-icon {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .cancel-btn {
+    background-color: #86198f;
+    color: #fff;
+  }
+  
+  /* Chat area styling */
+  .chat-area {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  /* Message styling */
+  .message {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .message.error {
+    background-color: #fee;
+    color: #c00;
+  }
+  

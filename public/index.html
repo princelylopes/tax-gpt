@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tax Assistant | Deloitte Enterprise</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="tax-assistant">
+            <nav class="top-navigation">
+                <div class="nav-content">
+                    <h1 class="app-title">Deloitte Auditor Enterprise Chat UI</h1>
+                    <div class="brand">
+                        <span class="brand-text">DELOITTE</span>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="content-area">
+                <div class="input-container">
+                    <div class="section-header">
+                        <h2>Tax Prompt</h2>
+                    </div>
+                    <div class="text-input-wrapper">
+                        <textarea 
+                            id="questionInput" 
+                            placeholder="Enter your tax-related question here..."
+                            rows="8"
+                        ></textarea>
+                    </div>
+                </div>
+
+                <div class="action-panel">
+                    <button type="button" id="submitBtn" class="action-button primary">
+                        <span class="button-icon">
+                            <img src="/openai-white-logomark.svg" alt="AI" class="icon">
+                        </span>
+                        <span class="button-text">Send</span>
+                    </button>
+                    <button type="button" id="clearBtn" class="action-button secondary">
+                        <span class="button-text">Cancel</span>
+                    </button>
+                </div>
+
+                <div class="output-container">
+                    <div class="section-header">
+                        <h2>Response</h2>
+                    </div>
+                    <div class="conversation-display" id="conversationLog"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
